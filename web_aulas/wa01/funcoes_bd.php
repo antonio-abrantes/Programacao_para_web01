@@ -12,8 +12,8 @@
 
 function conectarBanco(){
     $conexao = mysql_connect("localhost", "root", "");
-    mysql_select_db("php_dados", $conexao);
-    //mysql_select_db("dados", $conexao);
+    //mysql_select_db("php_dados", $conexao);
+    mysql_select_db("dados", $conexao);
 
     return $conexao;
 }
