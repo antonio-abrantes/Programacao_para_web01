@@ -4,7 +4,11 @@
  * User: Antonio Abrantes
  * Date: 19/05/2017
  * Time: 10:19
+ *
+ * OBS: As funções utilizadas correspondem ao PHP 5.6, o mesmo apresentado nas video-aulas
  */
+
+
 
 function conectarBanco(){
     $conexao = mysql_connect("localhost", "root", "");
