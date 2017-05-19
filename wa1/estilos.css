@@ -5,7 +5,10 @@ body{
 input{
     margin: 5px;
 }
-
+hr{
+    width: 520px;
+    margin-left: 1px;
+}
 #cadastro{
     padding: 5px;
     width: 500px;
@@ -22,7 +25,8 @@ input{
     width: 500px;
 }
 #listagem{
-    margin-left: 60px;
+    background-color: #FFFFE0;
+    margin-left: 20px;
     border-collapse: collapse;
 }
 #listagem td{
@@ -48,7 +52,11 @@ a{
     color: white;
 }
 .excluir a{
+    font-weight: bold;
+    position: relative;
+    font-size: 10px;
     color: black;
+    margin-left: 3%;
 }
 .excluir:hover{
     background-color: #464a4b;
