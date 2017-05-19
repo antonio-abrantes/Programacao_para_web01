@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Programacao para Web I - WA I</title>
+    <link href="estilos.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<h2>CADASTRO DE USUARIOS</h2><hr>
+<h2 id="cabecalho">CADASTRO DE USUARIOS</h2><hr>
 
 <form action="?valido=true" method="post" name="cadastro" id="cadastro">
 
@@ -44,7 +45,7 @@ if(isset($_REQUEST['valido']) && $_REQUEST['valido'] == true){
     mysql_query($sql, $conexao);
     mysql_close($conexao);
 
-    echo '<h3>Cliente cadastrado com sucesso...</h3><br>';
+    echo '<h3 class="confirm">Cliente cadastrado com sucesso...</h3><br>';
 
     listarDados();
 }

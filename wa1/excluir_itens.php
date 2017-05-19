@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Programacao para Web I - WA I</title>
+    <link href="estilos.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<h2>CONTROLE DE USUARIOS</h2><hr>
+<h2 id="cabecalho" >CONTROLE DE USUARIOS</h2><hr>
 
-<a href="index.php">VOLTAR PARA O INICIO</a><br><br>
+<a id="voltar" href="index.php">VOLTAR PARA O INICIO</a><br><br>
 
 </body>
 </html>
@@ -27,9 +28,12 @@ if(isset($_REQUEST["excluir"]) && $_REQUEST["excluir"] = true){
 
     $conexao = conectarBanco();
 
-    $rs = mysql_query($sql, $conexao);
-    $rs = mysql_query("SELECT * FROM USUARIOS", $conexao);
-    listar_usuarios($rs);
+    $resultado = mysql_query($sql, $conexao);
+    $resultado = mysql_query("SELECT * FROM USUARIOS", $conexao);
+
+        listar_usuarios($resultado);
+
     mysql_close($conexao);
+
 }
 ?>
