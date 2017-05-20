@@ -11,7 +11,7 @@
 <form action="?valido=true" method="post" name="cadastro" id="cadastro">
 
     NOME:
-        <input type="text" name="nome" id="nome"><br>
+        <input type="text" name="nome" id="nome" size="50"><br>
     SEXO:
         <input type="radio" name="sexo" id="masculino" value="Masculino" checked>Marculino
         <input type="radio" name="sexo" id="feminino" value="Feminino" >Feminino

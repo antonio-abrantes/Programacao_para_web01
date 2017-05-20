@@ -1,0 +1,81 @@
+body{
+    background-color: #ECF0F1;
+    font-family: Verdana;
+}
+input{
+    margin: 5px;
+}
+hr{
+    width: 520px;
+    margin-left: 1px;
+}
+#cadastro{
+    padding: 5px;
+    width: 500px;
+    border: solid;
+    border-bottom-right-radius: 20px;
+    border-color: #77ccf1;
+}
+#cabecalho{
+    padding: 5px;
+    border-style: groove;
+    border-width: thick;
+    border-top-right-radius: 20px;
+    border-color: #77ccf1;
+    width: 500px;
+}
+#listagem{
+    background-color: #FFFFE0;
+    margin-left: 20px;
+    border-collapse: collapse;
+}
+#listagem td{
+    border: groove 1px black;
+    padding: 5px;
+}
+.filds{
+    background-color: #77ccf1;
+    font-weight: bold;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.c_link{
+    background-color: #c4ddde;
+    color: #0c0c0c;
+    padding: 5px;
+    border-radius: 20px;
+}
+.c_link:hover{
+    background-color: #464a4b;
+    color: white;
+}
+.excluir a{
+    font-weight: bold;
+    position: relative;
+    font-size: 10px;
+    color: black;
+    margin-left: 3%;
+}
+.excluir:hover{
+    background-color: #464a4b;
+    color: white;
+}
+.excluir:hover a{
+    color: white;
+}
+.confirm{
+    text-align: center;
+    width: 400px;
+    padding: 5px;
+    background-color: #41ae64;
+    border-radius: 15px;
+}
+.atencao{
+    text-align: center;
+    width: 400px;
+    padding: 5px;
+    background-color: #ae5841;
+    border-radius: 15px;
+}
